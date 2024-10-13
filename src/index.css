@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+body {
+    margin: 0;
+    background-color: #121212;
+
+  }
+  
+  .app {
+    /* max-width: 1200px; /* Adjust as per your design */
+    /* margin-left: auto;
+    margin-right: auto;  */
+  }
+  
