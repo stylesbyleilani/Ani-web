@@ -1,54 +1,6 @@
-// import React from 'react'
-// import { GiHorseHead, GiTwinShell } from 'react-icons/gi'
-
-// const Investors = () => {
-//   return (
-//     <div className="text-center flex items-center justify-center ">
-//     <div className="div-1 relative mt-14  items-center w-[300px] h-[250px] md:w-[870px] md:h-[200px] rounded-md p-2 bg-neutral-800">
-//     <div className='absolute z-10 blur-[50px] w-[120px] h-[50px] rounded-full bg-gradient-to-r from-my-100 via-green-300 to-my-200-1/2 left-1/2 translate  translate-x-[75%] translate-y-[250%]'>
-//     </div>
-  
-//     <div className=" h-[230px] md:h-[180px] rounded-md border-[1px] border-b-[1px] border-b-green-700 border-gray-600">
-  
-//   <div className="center  md:flex grid grid-cols-2  md:flex-row items-center mt-10 md:mt-7 justify-between md:p-5 gap-5">
-// <div className='flex flex-col gap-3 text-gray-300'>
-//   <h2 className='text-2xl'>50 <span className='bg-gradient-to-r  from-my-400 via-my-500 to-my-100 text-transparent bg-clip-text'>+</span></h2>
-//   <p>Managed Pars</p>
-// </div>
-
-// <div className='flex flex-col gap-3 text-gray-300'>
-//   <h2 className='text-2xl'>10 <span className='bg-gradient-to-r from-my-400 via-my-500 to-my-100 text-transparent bg-clip-text'>+</span></h2>
-//   <p>Liquidity Partners</p>
-// </div>
-
-// <div className='flex flex-col gap-3 text-gray-300'>
-//   <h2 className='text-2xl'>10 <span className='bg-gradient-to-r from-my-400 via-my-500 to-my-100 text-transparent bg-clip-text'>+</span></h2>
-//   <p>Networks</p>
-// </div>
-
-// <div className='flex flex-col gap-3 text-gray-300'>
-//   <h2 className='text-2xl'>$100m <span className='bg-gradient-to-r from-my-400 via-my-500 to-my-100 text-transparent bg-clip-text'>+</span></h2>
-//   <p>Total Value </p>
-// </div>
-
-
 
   
 
-// </div> 
-
-
-// </div>
-
-// </div>
-
-
-//   </div> 
-
-//   )
-// }
-
-// export default Investors
 
 
 
@@ -79,7 +31,7 @@ const Investors = () => {
   };
 
   return (
-    <div className="text-center flex items-center justify-center">
+    <div className="text-center flex items-center justify-center md:p-7">
       <motion.div
         className="div-1 relative mt-14 items-center w-[300px] h-[250px] md:w-[870px] md:h-[200px] rounded-md p-2 bg-neutral-800"
         ref={ref} // Attach ref to track visibility
